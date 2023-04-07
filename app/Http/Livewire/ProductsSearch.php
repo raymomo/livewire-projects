@@ -34,4 +34,9 @@ class ProductsSearch extends Component
             $this->resetPage();
         }
     }
+
+    public function searchUpdated()
+    {
+        $this->resetPage();
+    }
 }
